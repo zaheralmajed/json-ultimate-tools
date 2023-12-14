@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-<img width="185" height="120" src="https://raw.githubusercontent.com/zaheralmajed/json-ultimate-tools/main/public/logo.png" alt="JSON Ultimate Tools">
+<img width="120" height="120" src="https://raw.githubusercontent.com/zaheralmajed/json-ultimate-tools/main/public/logo.png" alt="JSON Ultimate Tools">
 </p>
 
 <h1 align="center">
