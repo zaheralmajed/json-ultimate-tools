@@ -1,4 +1,3 @@
-import React from "react";
 import jsonData from "./data.json";
 import Link from "next/link";
 
