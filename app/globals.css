@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --800: #08090e;
+  --600: #292a2f;
+  --000: #fbfcfc;
+  --C001: #81f1a4;
+  --C009: #8be3eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --800: #08090e;
+    --600: #292a2f;
+    --000: #fbfcfc;
+    --C001: #81f1a4;
+    --C009: #8be3eb;
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --800: #08090e;
+    --600: #292a2f;
+    --000: #fbfcfc;
+    --C001: #81f1a4;
+    --C009: #8be3eb;
+  }
+}
+
+html {
+  font-size: 14px !important;
+  color: var(--000);
+}
+body {
+  background-color: var(--800);
+  color: var(--000);
+  overflow-x: hidden;
+  background-image: radial-gradient(circle, var(--800), var(--800));
+}
+.heroButton {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  box-shadow: 0px 0px 1px 1px var(--600), 0px 4px 8px 0px var(--800);
+}
+.heroButton-2 {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background: var(--600);
+  box-shadow: 0px 0px 1px 1px var(--600), 0px 4px 8px 0px var(--800);
+  padding: 8px;
+}
+.heroButton-3 {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background: var(--C001);
+  padding: 8px;
+  color: var(--800);
+}
+.heroButton-4 {
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  background: var(--C009);
+  padding: 8px;
+  color: var(--800);
+}
+.heroButton:hover {
+  box-shadow: 0px 4px 16px 0px var(--600);
+}
+.ButtomText {
+  position: absolute;
+  z-index: 100;
+  background: var(--800);
+  width: calc(100% - 3px);
+  height: calc(100% - 3px);
+  border-radius: 1rem;
+  color: var(--000);
+}
