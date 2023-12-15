@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2023-12-15
+
+### Fixed
+
+- Minor bugs.
+
 ## [1.0.0] - 2023-12-14
 
 Welcome to the initial release of the JSON Ultimate Tools repository!

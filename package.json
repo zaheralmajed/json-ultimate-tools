@@ -1,7 +1,7 @@
 {
   "name": "json-ultimate-tools",
-  "version": "1.0.0",
-  "releasedDate": "2023-12-14",
+  "version": "1.0.1",
+  "releasedDate": "2023-12-15",
   "license": "MIT",
   "private": true,
   "scripts": {
